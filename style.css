@@ -1,0 +1,16 @@
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+.day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
